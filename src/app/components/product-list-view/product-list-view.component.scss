@@ -1,0 +1,42 @@
+.product-list-container {
+  // margin: 27px 0 16px 0;
+  .product-list {
+    background: initial;
+    border: none;
+    padding: 8px 0;
+  }
+  .card {
+    display: inline-block;
+    padding: 0;
+    .card-body {
+      padding: 0;
+      display: inline-block;
+    }
+  }
+  .product-filter {
+    background: #467770;
+    max-height: 75vh; //relative to 1% of the height of the view port
+    color: #fff;
+    padding: 10px 0 10px 16px;
+    margin: 8px;
+    border-radius: 4px;
+    display: block;
+
+    .product-filtersearch {
+      padding: 0 1px;
+    }
+  }
+}
+
+.button-container {
+  margin: 18px 0 0;
+}
+
+@media (min-width: 768px) {
+  .product-filter {
+    flex: 0 0 22%; //doubt
+    position: sticky;
+    top: 88px;
+    overflow: auto;
+  }
+}

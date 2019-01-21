@@ -1,0 +1,117 @@
+{
+  "categories": [
+    {
+      "categoryId": 1,
+      "categoryName": "Electronic"
+    },
+    {
+      "categoryId": 2,
+      "categoryName": "Mobile"
+    },
+    {
+      "categoryId": 3,
+      "categoryName": "TV"
+    },
+    {
+      "categoryId": 4,
+      "categoryName": "Shoes"
+    },
+    {
+      "categoryId": 5,
+      "categoryName": "China"
+    }
+  ],
+  "products": [
+    {
+      "name": "Samsung-TV",
+      "price": 2000,
+      "itemLeft": 5,
+      "categories": [1, 3],
+      "rating": 1
+    },
+    {
+      "name": "Panasonic-TV",
+      "price": 1000,
+      "itemLeft": 2,
+      "categories": [1,3],
+      "rating": 2
+    },
+    {
+      "name": "Microwave",
+      "price": 100,
+      "itemLeft": 150,
+      "categories": [1],
+      "rating": 5
+    },
+    {
+      "name": "AC",
+      "price": 150,
+      "itemLeft": 10,
+      "categories": [1],
+      "rating": 3
+    },
+    {
+      "name": "Cooler",
+      "price": 5000,
+      "itemLeft": 125,
+      "categories": [1],
+      "rating": 1
+    },
+    {
+      "name": "Washing",
+      "price": 1500,
+      "itemLeft": 12,
+      "categories": [1],
+      "rating": 2
+    },
+    {
+      "name": "Oppo",
+      "price": 12000,
+      "itemLeft": 5,
+      "categories": [2,5],
+      "rating": 5
+    },
+    {
+      "name": "Vivo",
+      "price": 11000,
+      "itemLeft": 2,
+      "categories": [2,5],
+      "rating": 1
+    },
+    {
+      "name": "LG",
+      "price": 11100,
+      "itemLeft": 120,
+      "categories": [2],
+      "rating": 3
+    },
+    {
+      "name": "MI",
+      "price": 111150,
+      "itemLeft": 10,
+      "categories": [2,5],
+      "rating": 4
+    },
+    {
+      "name": "Samsung",
+      "price": 15000,
+      "itemLeft": 125,
+      "categories": [2],
+      "rating": 2
+    },
+    {
+      "name": "Samsung",
+      "price": 4000,
+      "itemLeft": 125,
+      "categories": [2],
+      "rating": 5
+    },
+    {
+      "name": "Micromax",
+      "price": 11500,
+      "itemLeft": 12,
+      "categories": [2],
+      "rating": 4
+    }
+  ]
+}

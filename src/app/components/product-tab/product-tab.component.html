@@ -1,0 +1,7 @@
+<div class="float-left" *ngFor="let tab of searchDataArr; let i=index; let lastTab=last;">
+  <div class="search-tab" [ngClass]="{ 'active' : isSelected === i }">
+    <span class="switch-tab" (click)="goToTab(i)">search {{i + 1}}</span>
+    <button (click)="removeCurrentTab(i)" class="btn btn-danger">&#8211;</button>
+  </div>
+  <button (click)="addNewTab(i)" *ngIf="lastTab" class="btn btn-success">&#43;</button>
+</div>

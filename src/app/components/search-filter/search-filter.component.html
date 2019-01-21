@@ -1,0 +1,46 @@
+<div class="full-width">
+  <div class="form-group">
+    <input class="form-control" type="text" placeholder="Search by name" name="search" value="" [(ngModel)]="searchFilter.searchInputValue" />
+  </div>
+</div>
+
+<div class="radio-buttons-filter">
+    <div class="filter-radio">
+      <input class="" type="radio" name="range" value="less" id="priceRange1" [(ngModel)]="searchFilter.priceRange">
+      <label for="priceRange1">Less than 5000</label>
+    </div>
+
+    <div class="filter-radio">
+      <input class="" type="radio" name="range" value="more" id="priceRange2" [(ngModel)]="searchFilter.priceRange">
+      <label for="priceRange2">Greater than 5000</label>
+    </div>
+
+    <div class="filter-radio">
+      <input class="" type="radio" name="range" value="noPriceRange" id="priceRange3" [(ngModel)]="searchFilter.priceRange">
+      <label for="priceRange3">All</label>
+    </div>
+</div>
+
+
+
+<div class="dropdown-filter input-group mb-3">
+  <select class="custom-select" id="inputGroupSelect01" [(ngModel)]="searchFilter.category">
+    <option value="">Choose Category</option>
+    <option *ngFor=" let cat of categoryList" [value]="cat.categoryId">{{cat.categoryName}}</option>
+  </select>
+</div>
+
+<button
+  class="text-bold btn btn-primary"
+  (click)="searchProduct()"
+  type="button">Search
+</button>
+
+<button
+  class="text-bold btn btn-danger"
+  (click)="removeFilter()"
+  type="button">
+  Reset
+</button>
+
+<!-- <button (click)="retrieve()">Retrieve</button> -->
